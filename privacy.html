@@ -53,57 +53,77 @@
     </style>
 </head>
 <body>
-    <h1>🔒 Privacy Policy</h1>
-    <p class="updated">Last updated: January 2025</p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: February 2025</p>
 
     <div class="highlight">
-        <strong>TL;DR:</strong> Moneta stores all your data locally on your device. We don't collect, track, or sell any of your information.
+        <strong>Summary:</strong> Moneta keeps your financial data on your device. We do not sell or use your data for advertising. When you use the AI assistant or receipt scanning, relevant data is sent to our AI provider (Groq) to process your requests. Bank linking and exchange rates use their respective services only when you use those features.
     </div>
 
     <h2>Introduction</h2>
-    <p>Moneta ("we", "our", or "the app") is a personal finance tracking application. Your privacy is extremely important to us. This policy explains how we handle your data.</p>
+    <p>Moneta ("we", "our", or "the app") is a personal finance app that helps you track transactions, budgets, debts, savings goals, and credits. This policy explains how your data is stored and when it is shared with third-party services.</p>
 
-    <h2>Data Collection</h2>
-    <p>Moneta stores all your financial data <strong>locally on your device</strong> using Apple's secure SwiftData framework. We do NOT:</p>
+    <h2>Data Stored on Your Device</h2>
+    <p>Most of your data stays <strong>on your device</strong> and is stored using Apple's SwiftData framework. This includes:</p>
     <ul>
-        <li>Collect personal information</li>
-        <li>Track your usage</li>
-        <li>Send data to external servers</li>
-        <li>Use analytics services</li>
-        <li>Show advertisements</li>
+        <li>Transactions (income and expenses)</li>
+        <li>Accounts and balances</li>
+        <li>Budgets and categories</li>
+        <li>Debts and savings goals</li>
+        <li>Credits, mortgages, and leasing</li>
+        <li>App preferences (language, theme, passcode settings)</li>
+        <li>Reminders and notification settings</li>
+    </ul>
+    <p>We do not collect, store, or have access to this data on our own servers.</p>
+
+    <h2>When Data Leaves Your Device</h2>
+    <p>Data is sent outside your device only in these cases:</p>
+
+    <h3>AI Assistant and Receipt Parsing</h3>
+    <p>If you use the in-app AI assistant or scan receipts with AI parsing, the app sends the necessary information to <strong>Groq</strong> (groq.com) to answer questions and extract receipt data. This may include:</p>
+    <ul>
+        <li>Summaries of your accounts, categories, budgets, debts, and recent transactions</li>
+        <li>Your messages and the AI’s replies</li>
+        <li>Receipt text (when you use receipt scanning)</li>
+    </ul>
+    <p>Groq processes this data to provide the service. Use of the AI assistant and receipt parsing is optional.</p>
+
+    <h3>Bank Linking (Monobank)</h3>
+    <p>If you connect your Monobank account, the app stores your Monobank token securely in the device Keychain and uses it to request your statement data from Monobank’s API (api.monobank.ua). Your token and bank data are not sent to us; they are used only between your device and Monobank.</p>
+
+    <h3>Exchange Rates and Crypto Prices</h3>
+    <p>The app may request exchange rates and crypto prices from third-party APIs (e.g. exchangerate-api.com, CoinGecko). Only non-personal data such as currency codes is sent; no account or transaction data is included.</p>
+
+    <h2>What We Do Not Do</h2>
+    <ul>
+        <li>We do not sell your data</li>
+        <li>We do not use your data for advertising</li>
+        <li>We do not use third-party analytics or tracking in the app</li>
+        <li>We do not have access to the data stored only on your device</li>
     </ul>
 
-    <h2>What Data is Stored Locally</h2>
-    <ul>
-        <li>Transactions (income/expenses)</li>
-        <li>Account information</li>
-        <li>Budget settings</li>
-        <li>Categories</li>
-        <li>App preferences</li>
-    </ul>
-
-    <h2>iCloud Sync</h2>
-    <p>If you enable iCloud Sync, your data is stored in your personal iCloud account, managed entirely by Apple. We have no access to this data.</p>
-
-    <h2>Currency Exchange Rates</h2>
-    <p>The app may fetch currency exchange rates from external APIs. Only the currency codes are sent — no personal data.</p>
+    <h2>Widgets</h2>
+    <p>Home screen widgets use Apple’s App Groups to read summary data (e.g. balances, budgets) from the app on the same device. This data does not leave your device.</p>
 
     <h2>Security</h2>
-    <p>You can protect your data using:</p>
+    <p>You can protect access to the app using:</p>
     <ul>
-        <li>Face ID</li>
-        <li>Touch ID</li>
+        <li>Face ID or Touch ID</li>
         <li>App passcode</li>
     </ul>
+    <p>Biometric data is handled by iOS and is not sent to us. Your Monobank token is stored in the iOS Keychain.</p>
+
+    <h2>Camera and Photo Library</h2>
+    <p>If you use receipt scanning, the app needs access to the camera and optionally the photo library. Images are processed on device and/or sent to Groq only when you choose to scan or parse a receipt.</p>
 
     <h2>Children's Privacy</h2>
-    <p>Moneta does not knowingly collect data from children under 13 years of age.</p>
+    <p>Moneta is not directed at children under 13. We do not knowingly collect personal information from children under 13.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page.</p>
+    <p>We may update this Privacy Policy from time to time. The updated version will be posted on this page with a new "Last updated" date.</p>
 
-    <h2>Contact Us</h2>
-    <p>If you have questions about this Privacy Policy, please contact us at:</p>
+    <h2>Contact</h2>
+    <p>If you have questions about this Privacy Policy or your data, contact us at:</p>
     <p><a href="mailto:naza.ladak@gmail.com">naza.ladak@gmail.com</a></p>
 </body>
 </html>
